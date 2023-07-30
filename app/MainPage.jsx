@@ -283,7 +283,7 @@ function MainPage() {
               About Me
             </h1>
             <p className="text-justify mb-4">
-              I am a full stack web devloper and currenty i am in <br /> 3rd
+              I am a full stack web devloper and currenty i am in <br className="hidden md:block"/> 3rd
               year B.Tech CSE in Kiit Bhubaneswar.
             </p>
             <div>
@@ -420,7 +420,7 @@ function MainPage() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <a href="https://github.com/debangan03/">
+          <a href="https://github.com/Bibaswan03/">
             <button className="relative inline-flex bg-blue-500 hover:bg-slate-700 items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium rounded-lg text-white hover:shadow-md hover:shadow-slate-500">
               <span className="relative px-5 py-2.5 transition-all ease-in hover:bg-blue-500 duration-75 bg-black rounded-md group-hover:bg-opacity-0">
                 See More &rarr;
